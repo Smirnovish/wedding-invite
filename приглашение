@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приглашение на свадьбу</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Титульная страница -->
+        <section class="intro">
+            <h1>Скоро наша свадьба!</h1>
+            <p>Мы с радостью приглашаем вас разделить с нами этот важный момент.</p>
+            <p>Присоединяйтесь к нашему торжеству!</p>
+        </section>
+
+        <!-- Дресс-код -->
+        <section class="dress-code">
+            <h2>Дресс-код</h2>
+            <p>Мы будем признательны, если Вы подержите цветовую гамму нашей свадьбы в своих нарядах, а также огромная просьба отдать предпочтение однотонным тканям.</p>
+            <ul>
+                <li>Серый (#9b9b9b)</li>
+                <li>Пастельный розовый (#cbadad)</li>
+                <li>Песочно-коричневый (#7d6b69)</li>
+                <li>Темно-бордовый (#5b4045)</li>
+            </ul>
+        </section>
+
+        <!-- Счётчик дней -->
+        <section class="countdown">
+            <h2>До нашей свадьбы осталось:</h2>
+            <div id="countdown-timer"></div>
+        </section>
+
+        <!-- Подтверждение присутствия -->
+        <section class="confirmation">
+            <h2>Подтвердите ваше присутствие</h2>
+            <button class="confirm-btn">Буду</button>
+            <button class="decline-btn">Не смогу прийти</button>
+        </section>
+
+        <!-- Контакты -->
+        <section class="contacts">
+            <h2>Контакты</h2>
+            <p>Невеста: [Контактные данные]</p>
+            <p>Жених: [Контактные данные]</p>
+        </section>
+    </div>
+
+    <!-- Подключение скрипта -->
+    <script src="script.js"></script>
+</body>
+</html>
